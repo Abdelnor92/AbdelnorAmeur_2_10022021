@@ -1,89 +1,85 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
+<html lang="fr"><head>
+  <!-- Logo fichier -->
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="Reservia@3x.png" rel="shortcut icon" type="image/png">
   <title>Reservia</title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2022.3">
-  <style type="text/css">
-  </style>
 </head>
+
 <body>
-</body>
-</html>
-<header>
-  <!-- Nav bar -->
-      <div class="nav-log">
-          <img alt="Logo de l'entreprise Reservia" class="brand-logo" src="Reservia.svg">
+  <header>
+      <!-- Nav bar -->
+          <div class="nav-log">
+              <img alt="Logo de l'entreprise Reservia" class="brand-logo" src="Reservia.svg">
+          </div>
+          <a href="#" class="sign-up">S'inscrire</a>
+      <nav class="top-nav">
+          <ul class="nav-content">
+              <li class="item-bar-hover item-bar-hover-left">
+                  <a class="nav-heb" href="#heb-marseille">Hébergements</a>
+              </li>
+              <li class="item-bar-hover item-bar-hover-right">
+                  <a class="nav-act" href="#activity-marseille">Activités</a>
+              </li>
+          </ul>
+      </nav>
+  </header>
+  <!-- Top avec Recherche -->
+  <section id="top-search">
+      <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+      <span class="line-height">En plein centre ville ou en pleine nature</span>
+      <!-- Barre de Recherche  -->
+      <div id="search-bar">
+          <div class="gps-loc">
+              <i class="fa fa-map-marker map-marker" aria-hidden="true"></i>
+          </div>
+          <div>
+              <input aria-label="Search through site content" class="input-search" id="site-search" placeholder="Marseille, France" type="search">
+          </div>
+          <div>
+              <input type="button" class="btn-search btn-search-desktop" value="Rechercher">
+              <i class="fa fa-search btn-search btn-search-mobile" aria-hidden="true"></i>
+          </div>
       </div>
-      <a href="#" class="sign-up">S'inscrire</a>
-  <nav class="top-nav">
-      <ul class="nav-content">
-          <li class="item-bar-hover item-bar-hover-left">
-              <a class="nav-heb" href="#heb-marseille">Hébergements</a>
+  </section>
+  <!-- Filtres -->
+  <section id="filters">
+      <ul>
+          <li class="title-filters">
+              <h3>Filtres</h3>
           </li>
-          <li class="item-bar-hover item-bar-hover-right">
-              <a class="nav-act" href="#activity-marseille">Activités</a>
+          <li class="money">
+              <div class="filter">
+                  <p class="money-ico">
+                      <i aria-hidden="true" class="fa fa-money-bill-wave filter-logo"></i>
+                      <a class="list-filters" href="#">Économique</a>
+                  </p>
+              </div>
+          </li>
+          <li class="child">
+              <div class="filter">
+                  <p class="child-ico">
+                      <i aria-hidden="true" class="fa fa-child filter-logo"></i>
+                      <a class="list-filters" href="#">Familial</a>
+                  </p>
+              </div>
+          </li>
+          <li class="heart">
+              <div class="filter">
+                  <p class="heart-ico">
+                      <i aria-hidden="true" class="fa fa-heart filter-logo"></i>
+                      <a class="list-filters" href="#">Romantique</a>
+                  </p>
+              </div>
+          </li>
+          <li class="dog">
+              <div class="filter">
+                  <p class="dog-ico">
+                      <i aria-hidden="true" class="fa fa-dog filter-logo"></i>
+                      <a class="list-filters" href="#">Animaux autorisés</a>
+                  </p>
+              </div>
           </li>
       </ul>
-  </nav>
-</header>
-<!-- Top avec Recherche -->
-<section id="top-search">
-  <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-  <span class="line-height">En plein centre ville ou en pleine nature</span>
-  <!-- Barre de Recherche  -->
-  <div id="search-bar">
-      <div class="gps-loc">
-          <i class="fa fa-map-marker map-marker" aria-hidden="true"></i>
-      </div>
-      <div>
-          <input aria-label="Search through site content" class="input-search" id="site-search" placeholder="Marseille, France" type="search">
-      </div>
-      <div>
-          <input type="button" class="btn-search btn-search-desktop" value="Rechercher">
-          <i class="fa fa-search btn-search btn-search-mobile" aria-hidden="true"></i>
-      </div>
-  </div>
-</section>
-<!-- Filtres -->
-<section id="filters">
-  <ul>
-      <li class="title-filters">
-          <h3>Filtres</h3>
-      </li>
-      <li class="money">
-          <div class="filter">
-              <p class="money-ico">
-                  <i aria-hidden="true" class="fa fa-money-bill-wave filter-logo"></i>
-                  <a class="list-filters" href="#">Économique</a>
-              </p>
-          </div>
-      </li>
-      <li class="child">
-          <div class="filter">
-              <p class="child-ico">
-                  <i aria-hidden="true" class="fa fa-child filter-logo"></i>
-                  <a class="list-filters" href="#">Familial</a>
-              </p>
-          </div>
-      </li>
-      <li class="heart">
-          <div class="filter">
-              <p class="heart-ico">
-                  <i aria-hidden="true" class="fa fa-heart filter-logo"></i>
-                  <a class="list-filters" href="#">Romantique</a>
-              </p>
-          </div>
-      </li>
-      <li class="dog">
-          <div class="filter">
-              <p class="dog-ico">
-                  <i aria-hidden="true" class="fa fa-dog filter-logo"></i>
-                  <a class="list-filters" href="#">Animaux autorisés</a>
-              </p>
-          </div>
-      </li>
-  </ul>
-</section>
+  </section>
