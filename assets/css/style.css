@@ -877,5 +877,44 @@ footer a {
   margin: auto;
   }
 
+  .nav-content {
+    margin: 10%;
+  }
 
+  header > nav > ul > li > a {
+    margin-bottom: 15%;
+  }
+
+  #filters > ul {
+    flex-wrap: wrap;
+  }
+
+  #search-bar {
+    justify-content:left;
+  }
+
+  #heb-marseille {
+    display:block;
+  }
+
+  .block-heb-marseille {
+    width:100%;
+  }
+
+  #populaire-side {
+    width: auto;
+    margin-left: 0;
+    padding-bottom: 10px;
+  }
+
+  h3.title-activity {
+    margin-bottom: 0;
+    position: relative;
+  }
+
+  .activity-marseille {
+    padding-top: 3%;
+  }
+
+}
 
