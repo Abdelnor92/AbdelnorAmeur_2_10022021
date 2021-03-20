@@ -557,3 +557,140 @@ figure.img-activity {
   box-shadow: 0px 3px 9px -1px #80808059;
   margin: auto;
 }
+/* contour des cartes */
+figure.img-activity-center {
+  border-radius: 20px;
+  border-color: rgb(242, 242, 242);
+  border-style: solid;
+  border-width: 1px;
+  box-shadow: 0px 3px 9px -1px #80808059;
+}
+
+/* cartes section activités */
+
+.activity-select-portrait {
+  width: 40%;
+}
+
+.activity-select-portrait img, .activity-select-portrait-center img {
+  width: 100%;
+  border-radius: 15px 15px 0 0;
+  height: 26rem;
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+figcaption.activity-card-text {
+  margin-left: 15px;
+}
+
+.card-title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: smaller;
+  color: black;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+
+.card-text p {
+  margin: 0px;
+  line-height: 22px;
+}
+
+.double-activity-marseille {
+  margin: 0px 30px;
+  height: 100%;
+  width: 50%;
+}
+
+.activity-select-portrait > a > figure:hover {
+  transform: rotate(4deg);
+  box-shadow: 0px 8px 9px 0px #818181;
+  transition: all 0.2s;
+  border-radius: 20px;
+}
+
+.activity-select-portrait-center {
+  margin: 0px 30px 0px 0px;
+  width: 40%;
+}
+
+.double-cards {
+  width: 40%;
+}
+
+.activity-select-portrait-center > a > figure:hover {
+  transform: rotate(4deg);
+  box-shadow: 0px 8px 9px 0px #818181;
+  transition: all 0.2s;
+  border-radius: 20px;
+}
+
+.activity-select-small:hover, .activity-select-large:hover, .activity-select:hover,.activity-select-top:hover  {
+  transform: rotate(-4deg);
+  box-shadow: 0px 8px 9px 0px #818181;
+  transition: all 0.2s;
+  border-radius: 20px;
+}
+
+.activity-select-large, .activity-select-top {
+  margin-bottom: 30px;
+}
+
+/* Fin du style Activités à Marseille */
+
+/* Style du footer */
+
+footer {
+  background-color: #f2f2f2;
+  padding: 2% 0% 2%;
+  display: flex;
+  justify-content: space-around;
+  align-content: flex-start;
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.footer__title {
+  font-weight:bold;
+}
+
+.display-more > span {
+  padding-top: 1%;
+  text-align: justify;
+  padding-left: 3.5%;
+  font-weight: bold;
+}
+
+.title-filters > span {
+  font-weight: bold;
+}
+
+.activity-card-text > .card-title {
+  font-weight: bold;
+  font-style: normal;
+  font-size: smaller;
+  color: black;
+  margin-top: 1em; 
+  border-end-start-radius: 1em ;
+  margin-block-end: 1em;
+}
+
+/* Fin du style footer */
+
+  section#heb-marseille h3:not(.pop-right) {
+    padding-top: 1%;
+    text-align: justify;
+    padding-left: 2%;
+  }
+
+  .activity-marseille {
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row;
+  }
