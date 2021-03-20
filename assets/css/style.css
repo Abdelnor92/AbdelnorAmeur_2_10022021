@@ -868,3 +868,14 @@ footer a {
   }
 }
 
+/* écran tablettes*/
+@media (min-width: 768px) and (max-width: 1199.98px) {
+  
+  body {
+  width: auto;
+  flex-wrap: wrap;
+  margin: auto;
+  }
+
+
+
