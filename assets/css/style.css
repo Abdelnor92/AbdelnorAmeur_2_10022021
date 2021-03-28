@@ -6,7 +6,7 @@ body {
   margin: auto;
 }
 
-header, section {
+header, section, {
 padding: 0 20px;
 }
 
@@ -86,6 +86,11 @@ header a {
 /* Fin du style pour la Navbar du haut */
 
 /* Début du style pour les Filtres */
+
+#top-search {
+  padding-left: 20px;
+}
+
 #top-search > span.line-height {
   font-weight: lighter;
   font-size: 1.1em;
